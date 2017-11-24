@@ -1,0 +1,35 @@
+{
+    "env": {
+        "browser": true,
+        "es6": true,
+        "webextensions": true
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "consistent-return": "error",
+        "indent": [
+            "error",
+            2
+        ],
+        "linebreak-style": [
+            "error",
+            "unix"
+        ],
+        "quotes": [
+            "error",
+            "single"
+        ],
+        "semi": [
+            "error",
+            "always"
+        ]
+    },
+    "overrides": [
+        {
+            "files": ["src/**/*.js"],
+            "parserOptions": {
+                "sourceType": "module"
+            }
+        }
+    ]
+}

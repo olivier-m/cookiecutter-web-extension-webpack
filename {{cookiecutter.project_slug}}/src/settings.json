@@ -1,0 +1,39 @@
+{
+  "text_settings": {
+    "default": "",
+    "type": "text",
+    "label": "A text setting"
+  },
+  "flag_settings": {
+    "default": true,
+    "type": "checkbox",
+    "label": "A flag setting"
+  },
+  "choices_settings": {
+    "default": 1,
+    "type": "radio",
+    "label": "Radio choices",
+    "choices": {
+      "one": 1,
+      "two": 2,
+      "three": 3
+    }
+  },
+  "select_settings": {
+    "default": "OP2",
+    "type": "select",
+    "label": "Select choices",
+    "choices": {
+      "Option 1": "OP1",
+      "Option 2": "OP2",
+      "Option 3": "OP3",
+      "Option 4": "OP4"
+    }
+  },
+  "textarea_settings": {
+    "default": "some text\nmany lines",
+    "type": "textarea",
+    "label": "Some text setting with a long label",
+    "rows": 6
+  }
+}

@@ -1,0 +1,8 @@
+/node_modules
+/profile.*
+/web-ext-artifacts
+/yarn*
+
+/addon/.web-extension-id
+/addon/resources/dist
+/addon/manifest.json

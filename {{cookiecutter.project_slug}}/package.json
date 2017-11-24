@@ -1,0 +1,20 @@
+{
+  "name": "{{ cookiecutter.project_slug }}",
+  "version": "{{ cookiecutter.version }}",
+  "description": "{{ cookiecutter.project_description }}",
+  "license": "UNLICENSED",
+  "private": true,
+  "author": {
+    "name": "{{ cookiecutter.author_name }}",
+    "email": "{{ cookiecutter.author_email }}"
+  },
+  "contributors": [
+  ],
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "generate-json-webpack-plugin": "^0.2.2",
+    "web-ext": "^2.2.2",
+    "webpack": "^3.8.1"
+  },
+  "dependencies": {}
+}

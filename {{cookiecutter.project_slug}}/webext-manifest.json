@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "{{ cookiecutter.project_slug }}",
+  "version": "",
+  "description": "",
+  "author": "",
+  "applications": {
+    "gecko": {
+      "id": "{{ cookiecutter.extension_id }}",
+      "strict_min_version": "56.0"
+    }
+  },
+  "icons": {
+    "48": "icons/icon-48.png",
+    "96": "icons/icon-96.png"
+  },
+  "options_ui": {
+    "browser_style": true,
+    "chrome_style": true,
+    "open_in_tab": false,
+    "page": "options/options.html"
+  },
+  "permissions": ["storage"],
+  "content_scripts": []
+}

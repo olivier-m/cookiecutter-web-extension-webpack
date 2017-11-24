@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <style type="text/css">
+    body.chrome {
+      min-width: 40rem;
+    }
+    .field {
+      display: flex;
+      flex-direction: row;
+      /*align-items: center;*/
+      margin-bottom: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid #eee;
+    }
+    .field > *:nth-child(1) {
+      flex: none;
+      display: block;
+      width: 10rem;
+      margin-top: 0.2rem;
+      margin-right: 1rem;
+    }
+    .field > *:nth-child(2) {
+      flex: 1 1 auto;
+      display: block;
+    }
+
+    .field > div > * {
+      vertical-align: middle;
+    }
+
+    .field .radio-container {
+      margin-top: 0.2rem;
+    }
+
+    textarea {
+      font-family: inherit;
+      font-size: inherit;
+      padding: 0.2rem 0.5rem;
+    }
+
+    label[for], label.pointer {
+      cursor: pointer;
+    }
+
+    label input {
+      vertical-align: bottom;
+    }
+
+    body.firefox label {
+      font-size: 1.1rem;
+    }
+
+    #message {
+      color: #fff;
+      background-color: green;
+      font-size: 1rem;
+      padding: 0.2rem 0.5rem;
+      border-radius: 2px;
+      opacity: 0;
+      transition: opacity 0.4s;
+    }
+    </style>
+  </head>
+
+  <body>
+    <h3>Options <span id="message">saved</span></h3>
+    <div id="options"></div>
+  </body>
+  <script type="text/javascript" src="../resources/dist/options.js"></script>
+</html>
