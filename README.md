@@ -75,7 +75,7 @@ Your project management goes through a Makefile with the following targets:
 - **make clean**  
   Remove generated files in `addon` directory.
 
-## Default extension settings
+## Default extension settings
 
 The file `src/settings.json` provides your settings layout and configuration.
 The file's content is used by the settings library and gives you the following:
